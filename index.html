@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Look of Health</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="index.html">The Look of Health</a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="proposal.html" class="nav-link">Project Proposal</a></li>
+                <li><a href="bibliography.html" class="nav-link">Annotated Bibliography</a></li>
+                <li><a href="survey.html" class="nav-link">Survey Results</a></li>
+                <li><a href="case-studies.html" class="nav-link">Social Media Case Studies</a></li>
+                <li><a href="insights.html" class="nav-link">Final Insights</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">The Look of Health</h1>
+            <p class="hero-subtitle">How Visual Culture on TikTok and Instagram Shapes Our Perception of Wellness</p>
+            <p class="hero-description">
+                An investigation into the aesthetic codes and visual trends that define "healthy" lifestyles on social media.
+            </p>
+        </div>
+    </section>
+
+    <section id="project-intro" class="intro-section">
+        <div class="container">
+            <h2 class="section-title">About This Research</h2>
+            <p class="intro-paragraph">
+                Social media has become the primary source through which young people encounter and internalize ideas about health and wellness.
+            </p>
+            <p class="intro-paragraph">
+                This research explores the visual language used to communicate health and wellness on TikTok and Instagram.
+            </p>
+            <a href="survey.html" class="cta-link">Explore the Research →</a>
+        </div>
+    </section>
+
+    <section id="themes" class="themes-section">
+        <div class="container">
+            <h2 class="section-title">Major Themes</h2>
+            <p class="section-subtitle">Key aesthetics and cultural concepts shaping wellness visuals</p>
+            <div class="themes-grid">
+                <div class="theme-card">
+                    <h3>Food Aesthetics</h3>
+                    <p>How food is photographed and styled on social media.</p>
+                </div>
+                <div class="theme-card">
+                    <h3>Wellness Culture</h3>
+                    <p>The broader aesthetics of wellness and self-care routines.</p>
+                </div>
+                <div class="theme-card">
+                    <h3>"It Girl" Routines</h3>
+                    <p>Highly curated morning routines and aspirational wellness narratives.</p>
+                </div>
+                <div class="theme-card">
+                    <h3>Social Media Influence</h3>
+                    <p>How algorithms amplify wellness aesthetics.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="findings" class="findings-section">
+        <div class="container">
+            <h2 class="section-title">Key Findings</h2>
+            <div class="findings-grid">
+                <div class="finding-card">
+                    <div class="finding-number">01</div>
+                    <h3>Finding Title One</h3>
+                    <p>Add your first major finding here.</p>
+                </div>
+                <div class="finding-card">
+                    <div class="finding-number">02</div>
+                    <h3>Finding Title Two</h3>
+                    <p>Add your second major finding here.</p>
+                </div>
+                <div class="finding-card">
+                    <div class="finding-number">03</div>
+                    <h3>Finding Title Three</h3>
+                    <p>Add your third major finding here.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+                        <div class="footer-content">
+                <h3>The Look of Health</h3>
+                <p>
+                    <strong>Course:</strong> DCDA 40833<br>
+                    <strong>Institution:</strong> Texas Christian University<br>
+                    <strong>Year:</strong> 2026
+                </p>
+                <p>
+                    <strong>Research by:</strong> Isabella Nastas<br>
+                    <strong>Contact:</strong> isabella.nastas@tcu.edu
+                </p>
+            </div>
+            <div class="footer-links">
+                <a href="index.html">Home</a> | 
+                <a href="proposal.html">Project Proposal</a> | 
+                <a href="mailto:email@example.com">Contact</a>
+            </div>
+            <p class="footer-credit">© 2026 Research Project. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const navToggle = document.getElementById('navToggle');
+        const navMenu = document.getElementById('navMenu');
+        navToggle.addEventListener('click', function() {
+            navMenu.classList.toggle('active');
+            navToggle.classList.toggle('active');
+        });
+        const navLinks = navMenu.querySelectorAll('a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                navMenu.classList.remove('active');
+                navToggle.classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>

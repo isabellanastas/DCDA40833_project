@@ -22,7 +22,7 @@ Your research project website now has the following structure:
    - Timeline & milestones
    - Limitations & considerations
 
-3. **bibliography.html** - Annotated Bibliography
+3. **bibliography.html** - Research Methodology
    - Overview of sources
    - 5 thematic categories for sources:
      - Visual Culture & Aesthetics
@@ -95,7 +95,7 @@ Your research project website now has the following structure:
 
 - Home: index.html
 - Project Proposal: proposal.html
-- Annotated Bibliography: bibliography.html
+- Research Methodology: bibliography.html
 - Survey Results: survey.html
 - Social Media Case Studies: case-studies.html
 - Final Insights: insights.html
